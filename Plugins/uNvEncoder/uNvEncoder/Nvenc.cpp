@@ -120,7 +120,7 @@ void Nvenc::UnloadModule()
 
 Nvenc::Nvenc(const NvencDesc &desc)
     : desc_(desc)
-    , resources_(1)
+    , resources_(4)
 {
 }
 
